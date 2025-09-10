@@ -1,0 +1,13 @@
+[package]
+name = "Learning"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1"
+oci-distribution = { version = "0.11.0" }
+sha2 = "0.10"
+tokio = { version = "1", features = ["full"] }
+tar = "0.4"
+clap = { version = "4", features = ["derive"] }
+
